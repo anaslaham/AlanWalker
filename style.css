@@ -1,0 +1,139 @@
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 60px auto auto;
+    padding: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height:auto;
+    margin-left: 40px;
+}
+.text1{
+    justify-self: end;
+    margin-right: 20px;
+}
+.navtext{
+    color:#eee;
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top:30px;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+  }
+  .dark{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: rgb(242,242,242);
+       background: linear-gradient(90deg, rgba(242,242,242,0) 0%, rgba(0,0,0,1) 50%);
+      opacity: 50%;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+  .mainimg{
+position: absolute;
+left: 0;
+bottom: 0;
+      width:659px;
+      margin-left: 5%;
+      z-index: 2;
+  }
+  .name{
+      font-size: 7rem;
+      display: inline-block;
+      position: absolute;
+      bottom: 30%;
+      left:32%;
+      font-weight: 300;
+      z-index: -1;
+  }
+  .right{
+      align-items: center;
+      width: 75%;
+  }
+  .last{
+     bottom: 15%;
+     left: 40%;
+  }
+  .songs{
+      width: 25%;
+      height: 90%;
+      position: absolute;
+      right: 0;
+      bottom: 0%;
+      align-items: center;
+      overflow:hidden;
+       overflow-y:scroll;
+  }
+  .songs::-webkit-scrollbar {
+    display: none;
+  }
+  .card{
+      align-items: center;
+      height:150px;
+      width: 250px;
+      background: rgb(242,242,242);
+       background: linear-gradient(180deg, rgba(242,242,242,0) 0%, rgba(38,38,38,1) 50%);
+      border-radius: 25px;
+      background-position: center;
+      background-size: cover;
+      margin-top: 10%;
+      justify-content: center;
+      z-index: 4;
+  }
+  .cardimg{height: 100%;
+    width: 100%;
+  object-fit: cover;
+  z-index: -2;
+  border-radius: 25px;
+  transition: opacity 300ms ease-in-out;
+  }
+  .carddis{
+      justify-self: center;
+      font-size: 1.3em;
+      display: inline-block;
+      position: relative;
+      bottom: 125px;
+      left:10px;
+      opacity: 0%;
+      z-index: 1;
+      transition: opacity 300ms ease-in-out;
+  }
+  .playbtn{
+      justify-self: center;
+      background-color: rgba(0,0,0,0);
+      border-style: none;
+      position: relative;
+      left:45%;
+      bottom: 65%;
+      width: 40px;
+      height: auto;
+      opacity: 0%;
+      transition: opacity 300ms ease-in-out;
+  }
+  .card:hover .playbtn{
+opacity: 100%;
+  }
+  .card:hover .carddis{
+    opacity: 100%;
+      }
+      .card:hover .cardimg{
+        opacity: 50%;
+          }
