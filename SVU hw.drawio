@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T18:00:08.875Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36" version="20.7.4" etag="HMzWxOu9gattMkMt7Y1_" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T18:04:05.280Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36" version="20.7.4" etag="VLYeaYv-jAJrCFsJ5yQR" type="github">
   <diagram id="7uUlLxbYwlzRWvXOqhOP" name="Page-1">
     <mxGraphModel dx="716" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-2" value="بوابة المنتجات" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="390" height="640" as="geometry" />
+          <mxGeometry x="120" y="40" width="520" height="640" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-5" value="مدير البوابة" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="200" width="30" height="60" as="geometry" />
+          <mxGeometry x="660" y="190" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-7" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تصفح المنتجات&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="80" width="90" height="50" as="geometry" />
@@ -59,13 +59,58 @@
           <mxGeometry x="140" y="394" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-22" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تحديد معلومات الدفع&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="420" width="90" height="50" as="geometry" />
+          <mxGeometry x="324" y="440" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-23" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تحديد العنوان&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="362" width="90" height="50" as="geometry" />
+          <mxGeometry x="324" y="380" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Xq880m5unMAi2xi6vODy-24" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;التحقق من تسجيل الدخول&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="300" width="90" height="50" as="geometry" />
+          <mxGeometry x="324" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-17" target="Xq880m5unMAi2xi6vODy-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-26" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-21" target="Xq880m5unMAi2xi6vODy-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="325" as="sourcePoint" />
+            <mxPoint x="334" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-27" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-21" target="Xq880m5unMAi2xi6vODy-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="429" as="sourcePoint" />
+            <mxPoint x="347.1801948466052" y="397.32233047033617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-28" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;التحقق من هوية المستخدم&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="324" y="236" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-15" target="Xq880m5unMAi2xi6vODy-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="325" as="sourcePoint" />
+            <mxPoint x="334" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92.5" y="216" as="sourcePoint" />
+            <mxPoint x="150" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92.5" y="216" as="sourcePoint" />
+            <mxPoint x="150" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92.5" y="216" as="sourcePoint" />
+            <mxPoint x="150" y="377" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
