@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T17:50:53.378Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36" version="20.7.4" etag="wB4qd_nUDyUhJAs7bJby" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T18:00:08.875Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Safari/537.36" version="20.7.4" etag="HMzWxOu9gattMkMt7Y1_" type="github">
   <diagram id="7uUlLxbYwlzRWvXOqhOP" name="Page-1">
     <mxGraphModel dx="716" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,65 @@
         <mxCell id="Xq880m5unMAi2xi6vODy-1" value="الزبون" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xq880m5unMAi2xi6vODy-2" value="بوابة المنتجات" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="390" height="390" as="geometry" />
+        <mxCell id="Xq880m5unMAi2xi6vODy-2" value="بوابة المنتجات" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="390" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-5" value="مدير البوابة" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-7" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تصفح المنتجات&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-8" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;البحث وفلترة&amp;nbsp; المنتجات&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="133" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-9" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;مقارنة المنتجات&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="186" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-9" target="Xq880m5unMAi2xi6vODy-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-15" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تسجيل الدخول&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="238" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xq880m5unMAi2xi6vODy-1" target="Xq880m5unMAi2xi6vODy-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-17" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;إضافة منتج إلى السلة&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-18" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;إزالة منتج من السلة&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="342" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-21" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;طلب المنتجات&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="394" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-22" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تحديد معلومات الدفع&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-23" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;تحديد العنوان&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="362" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xq880m5unMAi2xi6vODy-24" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;التحقق من تسجيل الدخول&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
