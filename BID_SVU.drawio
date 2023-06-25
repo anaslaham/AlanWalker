@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T14:38:36.433Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="a42TWTdkpnnIm0uZ4g5i" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-25T14:43:42.205Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7d9DhAshCrWjcuHa4TvC" version="21.5.0" type="github" pages="3">
   <diagram id="wTf1RqI4Zr4Ka6ZaDeev" name="Page-1">
     <mxGraphModel dx="874" dy="1165" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,6 +122,78 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="675" y="397" as="sourcePoint" />
             <mxPoint x="487" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSK82OIOkTfN70QciDOt-1" value="المستخدمين" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSK82OIOkTfN70QciDOt-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.723;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NSK82OIOkTfN70QciDOt-1" target="Qc_U0rAYabFZTpp4bNLj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSK82OIOkTfN70QciDOt-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.277;exitY=0.946;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Qc_U0rAYabFZTpp4bNLj-3" target="NSK82OIOkTfN70QciDOt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="570" as="sourcePoint" />
+            <mxPoint x="451" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7IVNLUcVSvU3tUIChaOL" name="DFD2">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uS72BXES3QQi1mKRlwHS-1" value="المستخدم" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47" y="335" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-2" value="نظام الطلبات" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="347" y="315" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-3" value="مدير الموقع" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="667" y="325" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uS72BXES3QQi1mKRlwHS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="362.5" as="sourcePoint" />
+            <mxPoint x="668" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-5" value="الدخول إلى لموقع باستخدام المعلومات" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uS72BXES3QQi1mKRlwHS-4">
+          <mxGeometry x="-0.2079" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-6" value="عرض قوائم الطلبات" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="uS72BXES3QQi1mKRlwHS-2" target="uS72BXES3QQi1mKRlwHS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="373" as="sourcePoint" />
+            <mxPoint x="351" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-7" value="قبول&amp;nbsp;الطلب" style="endArrow=classic;html=1;rounded=0;exitX=-0.015;exitY=0.564;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="uS72BXES3QQi1mKRlwHS-3" target="uS72BXES3QQi1mKRlwHS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="498" y="460" as="sourcePoint" />
+            <mxPoint x="653" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="uS72BXES3QQi1mKRlwHS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="417.5" as="sourcePoint" />
+            <mxPoint x="351" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-9" value="تعبئة طلب استئجار شقة" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uS72BXES3QQi1mKRlwHS-8">
+          <mxGeometry x="-0.5219" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uS72BXES3QQi1mKRlwHS-11" value="عرض قوائم الشقق" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uS72BXES3QQi1mKRlwHS-2" target="uS72BXES3QQi1mKRlwHS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468" y="344" as="sourcePoint" />
+            <mxPoint x="677" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
